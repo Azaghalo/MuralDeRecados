@@ -1,0 +1,26 @@
+.lista-notas {
+  background-color: var(--fundo);
+  flex-grow: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 5fr));
+  grid-column-gap: 6px;
+  grid-row-gap:6px;
+  list-style-type: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 80%;
+  position: relative;
+}
+.lista-notas_item {
+  margin: 5px 0;
+  margin-left: 15px;
+  width: calc(100% - 30px);
+  max-height: 400px;
+  display: inline;
+}
+
+@media only screen and (max-width: 370px){
+    .lista-notas{
+        width: 100%;
+    }
+}

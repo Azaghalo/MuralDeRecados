@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+:root{
+    --primaria: #58a4b0;
+    --secundaria: #373f51;
+    --secundaria-ativa: #cccccc;
+    --clearBtn: tomato;
+    --fundo: #ffffff;
+    --fundo-detalhes: #ececec;
+}
